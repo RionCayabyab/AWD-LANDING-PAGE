@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  background: white;
+  border: 3px solid #8abd91;
+  max-width: 800px;
+  margin: 60px auto;
+  height: 1080px;
+  padding: 20px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+  color: #8abd91;
+}
+
+.color-change-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #8abd91;
+  color: #ffffff;
+  border: 2px solid #154734;
+}
+
+.color-change-button:hover {
+  background-color: #154734;
+  color: #ffffff;
+  border: 2px solid #8abd91;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.img-area {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 25px auto;
+  border: 15px outset #8abd91;
+}
+
+.img-area img {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.left {
+  flex: 1;
+  padding: 30px;
+}
+
+.left p {
+  line-height: 2;
+  font-size: 15px;
+}
+
+h2 {
+  background-color: #154734;
+  padding: 20px;
+  color: whitesmoke;
+  margin: 20px 0;
+  font-size: 20px;
+  border-radius: 50px 0px 50px 0px;
+}
+
+.right {
+  flex: 1;
+  padding: 30px;
+}
+
+.right h2 {
+  margin-bottom: 15px;
+}
+
+.right p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.right ul li {
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 95%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    flex: none;
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+    height: auto;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}

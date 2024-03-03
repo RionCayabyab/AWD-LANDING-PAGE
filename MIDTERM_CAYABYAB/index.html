@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/Style.css" />
+    <title>Marion's Tunes</title>
+  </head>
+  <body>
+    <div class="music-player">
+      <h1>Sound Waves</h1>
+      <ul id="playlist">
+        <li
+          data-src="https://audio.jukehost.co.uk/GWwADS4rLySqRGKsG8qFsq2wSQQIdiSU"
+          data-img="https://images.genius.com/c4f225ffe9ed2762145f257dba814978.1000x1000x1.png"
+        >
+          Broken Clocks
+        </li>
+        <li
+          data-src="https://audio.jukehost.co.uk/LkiFO2APE888jPEsOewLgijHSIggYuxV"
+          data-img="https://i.scdn.co/image/ab67616d0000b2733138f891f3075c9c5d944037"
+        >
+          Get You
+        </li>
+        <li
+          data-src="https://audio.jukehost.co.uk/D4A2md1UvUoYAhPnSgykzVTcI6liVhoj"
+          data-img="https://images.genius.com/d00663b094c0e5625dcfd533af816c8a.1000x1000x1.png"
+        >
+          Glue Song
+        </li>
+        <li
+          data-src="https://audio.jukehost.co.uk/9fNtkz8kMPWqbRZoNQFiYeLsmuSqoSmc"
+          data-img="https://i.scdn.co/image/ab67616d0000b27348341e864d4b4881f56f01b4"
+        >
+          Valentine
+        </li>
+        <li
+          data-src="https://audio.jukehost.co.uk/JyM9kSiELYSwyth2UyXLYhXzgYVgUEuz"
+          data-img="https://images.genius.com/4022f89554ab9639b740a875dce6bb33.1000x1000x1.png"
+        >
+          California
+        </li>
+      </ul>
+      <div class="popup" id="popup">
+        <div class="card" id="card">
+          <div class="back">
+            <div class="close-btn" id="closeBtn">X</div>
+            <img src="" alt="Album Cover" id="popupAlbumCover" />
+            <p id="popupSongTitle"></p>
+            <audio id="audio" controls></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./Java/Java.js"></script>
+  </body>
+</html>

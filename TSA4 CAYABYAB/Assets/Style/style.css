@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: rgb(252, 244, 235);
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #963333;
+  color: white;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+#header h5 {
+  margin: 0;
+
+  font-size: 1.5rem;
+  color: white !important;
+}
+
+#header nav a {
+  color: white !important;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#header a.btn.btn-outline-primary {
+  background-color: rgb(252, 244, 235);
+  color: #963333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: #963333;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#header a.btn.btn-outline-primary:hover {
+  background-color: #963333;
+  color: rgb(252, 244, 235);
+  border-color: rgb(252, 244, 235);
+}
+
+.container {
+  margin-top: 70px;
+}
+
+#text {
+  color: #555;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  text-align: center;
+  color: #963333;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+#yokona {
+  background-color: #963333;
+  color: rgb(252, 244, 235);
+  border-radius: 5px;
+  border-color: #963333;
+  transition: background-color 0.3s, color 0.3s;
+}
+#yokona:hover {
+  background-color: rgb(252, 244, 235);
+  color: #963333;
+  border-color: #963333;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
